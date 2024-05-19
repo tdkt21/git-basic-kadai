@@ -1,0 +1,32 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:git_challenge toddyyymbp$ cd /Users/toddyyymbp/Desktop/git_challenge
+MacBook-Pro:git_challenge toddyyymbp$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in /Users/toddyyymbp/Desktop/git_challenge/.git/
+MacBook-Pro:git_challenge toddyyymbp$ git add hello_world.txt
+MacBook-Pro:git_challenge toddyyymbp$ git commit -m "hello_world.txtを追加"
+[master (root-commit) ca479c9] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+MacBook-Pro:git_challenge toddyyymbp$ git init
+Reinitialized existing Git repository in /Users/toddyyymbp/Desktop/git_challenge/.git/
+MacBook-Pro:git_challenge toddyyymbp$ git add hello_world.txt
+MacBook-Pro:git_challenge toddyyymbp$ git commit -m "日本語訳を追記"
+[master 98397d5] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+MacBook-Pro:git_challenge toddyyymbp$ git log --oneline
+98397d5 (HEAD -> master) 日本語訳を追記
+ca479c9 hello_world.txtを追加
+MacBook-Pro:git_challenge toddyyymbp$ 
